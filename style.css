@@ -1,0 +1,213 @@
+div
+{
+    border-radius: 5px;
+    }
+a {
+    text-decoration: none;
+}
+#header
+{
+    position: fixed;
+    z-index: 1;
+    height:40px;
+    width: 98%;
+    background-color: #668284;
+    margin-bottom: 10px
+    }
+
+#name {
+    float:left;
+	margin-left: 20px;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #070000;
+}
+
+#email{
+    margin: auto;
+    text-align: center;
+	padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #0a0000;
+}
+
+#contact
+{
+    margin: auto;
+    padding-bottom: 10px;
+	font-size: 16px;
+	font-family: Verdana, sans-serif;
+	color: #030000;
+    text-align: center;
+    }
+
+a:hover {
+    font-weight: bold;
+}
+
+.right
+{
+    float: left;
+    margin-top: 50px;
+    padding-left:5px;
+    /*margin-right: -10px;
+    margin-left: 14%;*/
+    height: auto;
+    width: 99%;
+    background-color: #E3EDD8;
+    }
+
+/*.left
+{
+    float: left;
+    margin-top: 50px;
+    /*margin-right: -90px;
+    height: relative;
+    width: 10%;
+    background-color: #4160E8;
+    }*/
+    
+#footer
+{
+    height:40px;
+    clear:both;
+    position: relative;
+    background-color: #C1E3E1;
+    text-align: center;
+    }
+    
+h3
+{
+    text-decoration: underline;
+
+    }
+
+#job-responsibilities
+{
+    padding: 1px;
+    }
+.job-title
+{
+    font-weight: bold;
+    }
+table
+{
+    border: 1px dashed black;
+    }
+td
+{
+    padding: 2px;
+    border: 1px solid #E88741;
+    }
+
+#course-name
+{
+    font-weight:bold;
+    }
+
+#company-name
+{
+    height:2px;
+    text-decoration:underline;
+    }
+#job-title
+{
+    height: 5px;
+    }
+.job-duration
+{
+    float:right;
+    }
+#heading
+{
+    font-weight:bold;
+    }
+    .flip-card {
+        /* background-color: transparent; */
+        width: 300px;
+        height: 300px;
+        margin: auto;
+        /* perspective: 1000px; */
+      }
+      
+      .flip-card-front img {
+        width: 300px;
+        height: 300px;
+      }
+      
+      .flip-card-inner {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        transition: transform 0.6s;
+        transform-style: preserve-3d;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      }
+      
+      .flip-card:hover .flip-card-inner {
+        transform: rotateY(180deg);
+      }
+      
+      .flip-card-front,
+      .flip-card-back {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+      }
+      
+      .flip-card-front {
+        /* background-color: #bbb;
+          color: black; */
+      }
+      
+      .flip-card-back {
+        background-color: #6ea1c4;
+        color: white;
+        transform: rotateY(180deg);
+      }
+      
+      form {margin: auto;
+      }
+
+      body {
+        /* design de mon body */
+        
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(154, 208, 236);
+      }
+      
+      h1 {
+          /* ajouter font family */
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        text-decoration: underline;
+        color: rgb(243, 173, 43);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      }
+
+      p {
+          /* ajouter font family */
+          font-family: 'Source Serif 4', sans-serif;
+      }
+      .soft {
+          display: flex;
+          justify-content: center;
+      }
+      .hard-skills{
+          margin-right: 100px;
+      }
+      .image-rugby{
+          text-align: center;
+      }
+     h3{
+        font-family: 'Source Serif 4', sans-serif;
+     }
+     li{
+        font-family: 'Playfair Display', serif;
+     }
